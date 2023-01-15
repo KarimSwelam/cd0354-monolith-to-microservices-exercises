@@ -15,9 +15,9 @@ before_script:
 
 script:
   - docker --version # print the version for logging
-  - docker build -t simple_node .
-  - docker tag simple-node karimswilam/simple_node:latest
+  - docker build -t simple-node .
+  - docker tag simple-node karimswilam/simple-node:latest
 
 after_success:
   - echo "$gsnfkmswilam_28412345" | docker login -u "$karimswilam" --password-stdin
-  - docker push karimswilam/simple_node
+  - docker push karimswilam/simple-node
