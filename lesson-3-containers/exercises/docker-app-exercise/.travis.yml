@@ -19,5 +19,5 @@ script:
   - docker tag simple-node karimswilam/simple_node:latest
 
 after_success:
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - echo "$gsnfkmswilam_28412345" | docker login -u "$karimswilam" --password-stdin
   - docker push karimswilam/simple_node
